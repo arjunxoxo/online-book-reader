@@ -1,0 +1,144 @@
+/* General styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Varela Round', sans-serif;
+  background: #86D1FF;
+}
+
+/* Main container */
+main {
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 20px;
+}
+
+/* Page title */
+.app-title {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  background: #035E7B;
+  width: 100%;
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0px 16px 16px rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 767px) {
+  .app-title {
+    font-size: 30px;
+    border-radius: 0%;
+  }
+  main {
+    width: 100%;
+  }
+}
+
+/* Search container */
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Search instructions */
+.text {
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+}
+
+/* Search form */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 70%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #035E7B;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: #035E7B;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.search-btn:hover {
+  background-color: #024b5e;
+}
+
+/* Search results */
+/* Search results */
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust alignment as needed */
+}
+
+.results {
+  width: 25%; /* Set width to 25% to display four boxes in a line */
+  background: #F5F5F5;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust other styles as needed */
+
+
+.results h1 {
+  font-size: 20px;
+  color: #024b5e;
+  margin-bottom: 10px;
+}
+
+.book__info {
+  display: flex;
+  align-items: center;
+}
+
+.book__image {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.book__details {
+  width: 60%;
+}
+
+.book__details p {
+  margin: 5px 0;
+}
+
+.book__button {
+  text-align: center;
+}
+
+.book__link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #024b5e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.book__link:hover {
+  background-color: #035E7B;
+}
